@@ -1,0 +1,28 @@
+# Plik CODEOWNERS – określa osoby odpowiedzialne za poszczególne części repozytorium.
+# Właściciele kodu są automatycznie dodawani jako recenzenci Pull Requestów.
+# Kolejność ma znaczenie: późniejsze reguły nadpisują wcześniejsze.
+# Każdy obszar ma dwóch właścicieli, aby zawsze ktoś mógł zatwierdzić zmiany autora.
+#
+# Zespół projektu:
+#   @ObiOneKenobi712       – Agata
+#   @cozmic-octopus        – Emilia
+#   @TestAutomationEngneer – Dariusz
+#   @melitheleh            – Marta
+
+# Domyślni właściciele całego repozytorium
+*                                   @TestAutomationEngneer
+
+# Konfiguracja GitHuba
+/.github/                           @melitheleh @TestAutomationEngneer
+/.github/CODEOWNERS                 @ObiOneKenobi712 @cozmic-octopus
+/.github/ISSUE_TEMPLATE/            @TestAutomationEngneer @cozmic-octopus
+/.github/pull_request_template.md   @ObiOneKenobi712 @melitheleh
+
+# Dokumentacja projektu
+/README.md                          @cozmic-octopus @melitheleh
+/CONTRIBUTING.md                    @melitheleh @cozmic-octopus
+/CODE_OF_CONDUCT.md                 @TestAutomationEngneer @melitheleh
+/AGENTS.md                          @ObiOneKenobi712 @cozmic-octopus
+
+# Pliki konfiguracyjne Git
+/.gitignore                         @ObiOneKenobi712 @TestAutomationEngneer
